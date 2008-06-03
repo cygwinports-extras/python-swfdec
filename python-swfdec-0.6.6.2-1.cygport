@@ -1,0 +1,4 @@
+inherit pygtk
+
+HOMEPAGE="https://launchpad.net/pyswfdec/"
+SRC_URI="http://www.gnome.org/~gianmt/${ORIG_PN}-${PV}.tar.gz"

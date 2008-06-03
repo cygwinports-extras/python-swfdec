@@ -1,0 +1,5 @@
+category: Gnome Python Video
+requires: cygwin glib2 gtk2-x11 libswfdec06 python python-gobject2 python-gtk2
+sdesc: "Python swfdec bindings"
+ldesc: "Pyswfdec are the python bindings for swfdec, allowing one to 
+play Adobe Flash files from python."
