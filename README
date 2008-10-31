@@ -4,23 +4,27 @@ Pyswfdec are the python bindings for swfdec, allowing one to play
 Adobe Flash files from python.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
-  libswfdec06-0.6.6-1
-  python-2.5.2-1
+  cygwin-1.5.25-15
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libswfdec-gtk0.8_0-0.8.0-1
+  libswfdec0.8_0-0.8.0-1
+  python-2.5.2-3
   python-gobject2-2.14.2-1
   python-gtk2-2.12.1-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20080523-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080524-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  pkg-config-0.21-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
 
 Canonical website:
   https://launchpad.net/pyswfdec/
@@ -31,15 +35,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-swfdec-0.6.6.2-X-src.tar.bz2
+  unpack python-swfdec-0.8.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-swfdec-0.6.6.2-X.cygport all
+  cygport ./python-swfdec-0.8.0-X.cygport all
 
 This will create:
-  /usr/src/python-swfdec-0.6.6.2-X-src.tar.bz2
-  /usr/src/python-swfdec-0.6.6.2-X.tar.bz2
+  /usr/src/python-swfdec-0.8.0-X-src.tar.bz2
+  /usr/src/python-swfdec-0.8.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -52,11 +56,11 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/swfdec/_swfdec.la
   /usr/lib/python2.5/site-packages/swfdec/ui.dll
   /usr/lib/python2.5/site-packages/swfdec/ui.la
-  /usr/share/doc/python-swfdec-0.6.6.2/AUTHORS
-  /usr/share/doc/python-swfdec-0.6.6.2/COPYING
-  /usr/share/doc/python-swfdec-0.6.6.2/ChangeLog
-  /usr/share/doc/python-swfdec-0.6.6.2/INSTALL
-  /usr/share/doc/python-swfdec-0.6.6.2/NEWS
+  /usr/share/doc/python-swfdec-0.8.0/AUTHORS
+  /usr/share/doc/python-swfdec-0.8.0/COPYING
+  /usr/share/doc/python-swfdec-0.8.0/ChangeLog
+  /usr/share/doc/python-swfdec-0.8.0/INSTALL
+  /usr/share/doc/python-swfdec-0.8.0/NEWS
   /usr/share/gtk-doc/html/pyswfdec/index.html
   /usr/share/gtk-doc/html/pyswfdec/index.sgml
   /usr/share/gtk-doc/html/pyswfdec/pyswfdec-audio.html
@@ -77,6 +81,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.8.0-1 -----
+Version bump.
 
 ----- version 0.6.6.2-1 -----
 Initial release for Cygwin.

@@ -1,0 +1,10 @@
+--- origsrc/pyswfdec-0.8.0/configure.ac	2008-10-22 17:32:52.000000000 -0500
++++ src/pyswfdec-0.8.0/configure.ac	2008-10-30 16:12:58.662912900 -0500
+@@ -67,6 +67,7 @@
+ AC_DISABLE_STATIC
+ AC_LIBTOOL_WIN32_DLL
+ AC_PROG_LIBTOOL
++LT_OUTPUT
+ 
+ AM_PATH_PYTHON(2.2)
+ 
