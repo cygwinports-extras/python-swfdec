@@ -5,25 +5,26 @@ Adobe Flash files from python.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
-  libswfdec-gtk0.8_0-0.8.0-1
-  libswfdec0.8_0-0.8.0-1
-  python-2.5.2-3
-  python-gobject2-2.14.2-1
-  python-gtk2-2.12.1-1
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.1-1
+  libgtk2.0_0-2.16.1-1
+  libswfdec-gtk0.8_0-0.8.4-10
+  libswfdec0.8_0-0.8.4-10
+  python-2.5.4-10
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080524-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -56,11 +57,10 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/swfdec/_swfdec.la
   /usr/lib/python2.5/site-packages/swfdec/ui.dll
   /usr/lib/python2.5/site-packages/swfdec/ui.la
-  /usr/share/doc/python-swfdec-0.8.0/AUTHORS
-  /usr/share/doc/python-swfdec-0.8.0/COPYING
-  /usr/share/doc/python-swfdec-0.8.0/ChangeLog
-  /usr/share/doc/python-swfdec-0.8.0/INSTALL
-  /usr/share/doc/python-swfdec-0.8.0/NEWS
+  /usr/share/doc/python-swfdec/AUTHORS
+  /usr/share/doc/python-swfdec/COPYING
+  /usr/share/doc/python-swfdec/ChangeLog
+  /usr/share/doc/python-swfdec/NEWS
   /usr/share/gtk-doc/html/pyswfdec/index.html
   /usr/share/gtk-doc/html/pyswfdec/index.sgml
   /usr/share/gtk-doc/html/pyswfdec/pyswfdec-audio.html
@@ -82,11 +82,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.8.0-1 -----
-Version bump.
-
------ version 0.6.6.2-1 -----
-Initial release for Cygwin.
+----- version 0.8.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
